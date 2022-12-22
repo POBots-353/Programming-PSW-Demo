@@ -10,7 +10,7 @@ import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class ExampleSubsystem extends SubsystemBase {
-  public CANSparkMax motor = new CANSparkMax(0, MotorType.kBrushed);
+  public CANSparkMax motor = new CANSparkMax(0, MotorType.kBrushless);
 
   /** Creates a new ExampleSubsystem. */
   public ExampleSubsystem() {
